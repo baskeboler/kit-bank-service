@@ -1,0 +1,8 @@
+{:full-name "baskeboler/kit-bank-service"
+ :ns-name   "baskeboler.kit-bank-service"
+ :sanitized "baskeboler/kit_bank_service"
+ :name      "kit-bank-service"
+ :modules   {:root         "modules"
+             :repositories [{:url  "https://github.com/kit-clj/modules.git"
+                             :tag  "master"
+                             :name "kit-modules"}]}}
